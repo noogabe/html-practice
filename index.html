@@ -1,40 +1,96 @@
 <!DOCTYPE html>
 <html>
-    <head lang="pt-br">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, inicial-scale=1.0">
-        <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
-        <link href="css/style.css" rel="stylesheet">
-        
-        <title>Dev Woman</title>
-    </head>
 
-    <body>
-        <header>
-            <nav class="menu">
-                <a href="" class="logo"><span class="material-icons">code</span></a>
+<head lang="pt-br">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
 
-                <ul>
-                    <li><a href="" class="ativo">Home</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav><!-- Menu -->
+    <script async src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'></script>
 
-            <section class="principal">
-                <h2>Dev Woman</h2>
-                <div class="links">
-                    <a href="">Sign up</a> <br />
+    <link defer rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'
+        integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm' crossorigin='anonymous'>
+
+    <!-- Material icons from googleapis and CSS-->
+    <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
+    <link href="css/style.css" rel="stylesheet">
+
+    <title>Dev Woman</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <a href="" class="logo"><span class="material-icons">code</span></a>
+
+            <ul>
+                <li><a href="" class="ativo">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav><!-- Menu -->
+
+        <section class="principal">
+            <h2>Dev Woman</h2>
+            <div class="links">
+                <a href="">Sign up</a> <br />
+            </div>
+
+            <div class="conta">Already have an account?
+                <a class="links" href="" data-bs-toggle="modal" data-bs-target="#modalSignin"><strong>Login</strong></a>
+            </div>
+
+            <div id="modalSignin" class="modal fade" tabindex="-1" role="dialog">
+                <!-- Início do código da janela modal -->
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <!-- Header do modal -->
+                            <h4 class="modal-title">Login</h4><!-- Título -->
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- Corpo do modal -->
+                            <form action="">
+                                <!-- Início do Formulário -->
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Type your email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="Type your password">
+                                </div>
+                                <button class="btn btn-block btn-info">Sign in</button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
+            </div><!-- ##Fim do Modal -->
 
-                <div class="conta">Already have an account?
-                    <a class="links" href=""><strong>Sign in</strong></a>
-                </div>
 
-            </section><!-- Principal -->
-        </header>
 
-    </body>
+        </section><!-- Principal -->
+    </header>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'
+        integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl'
+        crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js'
+        integrity='sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj'
+        crossorigin='anonymous'></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js'
+        integrity='sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp'
+        crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js'
+        integrity='sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/'
+        crossorigin='anonymous'></script>
+
+</body>
 
 </html>
