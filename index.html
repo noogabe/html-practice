@@ -35,8 +35,50 @@
         <section class="principal">
             <h2>Dev Woman</h2>
             <div class="links">
-                <a href="">Sign up</a> <br />
+                <a href="" data-bs-toggle="modal" data-bs-target="#modalSignup">Sign up</a> <br />
             </div>
+
+            <div id="modalSignup" class="modal fade" tabindex="-1" role="dialog">
+                <!-- Início do código da janela modal -->
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <!-- Header do modal -->
+                            <h4 class="modal-title">Sign up
+                                <br>
+                                <small>It's easy peasy!</small>
+                            </h4><!-- Título -->
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- Corpo do modal -->
+                            <form action="">
+                                <!-- Início do Formulário -->
+                                <div class="row">
+                                    <div class="col form-group">
+                                        <input type="text" class="form-control" placeholder="First name">
+                                    </div>
+                                    <div class="col form-group">
+                                        <input type="text" class="form-control" placeholder="Last name">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="Choose your password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="Confirm your password">
+                                </div>
+                                <button class="btn btn-block btn-info">Sign up</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- ##Fim do Modal -->
 
             <div class="conta">Already have an account?
                 <a class="links" href="" data-bs-toggle="modal" data-bs-target="#modalSignin"><strong>Login</strong></a>
@@ -48,7 +90,10 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <!-- Header do modal -->
-                            <h4 class="modal-title">Login</h4><!-- Título -->
+                            <h4 class="modal-title">Login
+                                <br>
+                                <small>Hello again!</small>
+                            </h4><!-- Título -->
                             <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
