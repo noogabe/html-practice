@@ -38,6 +38,7 @@ header .menu a {
 }
 
 header .menu .ativo, header .menu a:hover {
+    text-decoration: none;
     color: #444;
     background-color: white
 }
@@ -66,6 +67,7 @@ header .menu .ativo, header .menu a:hover {
 }
 
 .principal .links a:hover {
+    text-decoration: none;
     color: #444;
     background-color: white;
 }
@@ -73,4 +75,9 @@ header .menu .ativo, header .menu a:hover {
 .conta, .links {
     color: white;
     padding: 8px 12px;
+}
+
+.conta a:hover {
+    color: #444;
+    text-decoration: none;
 }
