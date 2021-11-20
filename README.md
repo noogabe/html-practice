@@ -1,6 +1,6 @@
 # Praticando Front-End
 
-## Site desenvolvido para praticar meus conhecimentos em HTML, CSS e Bootstrap CSS 🚀
+## Site desenvolvido para praticar meus conhecimentos em HTML, CSS e Bootstrap CSS
 
 ## :rocket: Tecnologias:
 
