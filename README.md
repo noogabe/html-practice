@@ -13,8 +13,8 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 ## :information_source: Instalação
 
 ```bash
-Clone o repositório para sua máquina local
-$ git clone https://github.com/GabrieleAlmeida/mundojix.git
+# Clone o repositório para sua máquina local
+$ git clone https://github.com/GabrieleAlmeida/praticando.git
 
 ```
 
