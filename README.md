@@ -1,12 +1,33 @@
+# Praticando Front-End
+
+## Site desenvolvido para praticar meus conhecimentos em HTML, CSS e Bootstrap CSS 🚀
+
+## :rocket: Tecnologias:
+
+Este projeto foi desenvolvido com as seguintes tecnologias:
+
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
+- [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+
+## :information_source: Instalação
+
+```bash
+Clone o repositório para sua máquina local
+$ git clone https://github.com/GabrieleAlmeida/mundojix.git
+
+```
+
+## 👁️ Resultado do Design:
+
 <h1 align="center">
-    <a>Um belo site</a>
+
+<img src="https://github.com/GabrieleAlmeida/Praticando/blob/main/imagens/praticando.png"
+    height="400">
+
+<img src="https://github.com/GabrieleAlmeida/Praticando/blob/main/imagens/praticando-signiup.png"
+    height="400">
+    
 </h1>
-<p align="center">🚀 Desenvolvido para praticar meus conhecimentos em HTML, CSS e Bootstrap CSS</p>
-
-<h4 align="center"> 
-	🚧  Em construção...  🚧
-</h4>
-
-
 
 
