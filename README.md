@@ -23,10 +23,10 @@ $ git clone https://github.com/GabrieleAlmeida/praticando.git
 <h1 align="center">
 
 <img src="https://github.com/GabrieleAlmeida/Praticando/blob/main/imagens/praticando.png"
-    height="400">
+    height="100%">
 
 <img src="https://github.com/GabrieleAlmeida/Praticando/blob/main/imagens/praticando-signiup.png"
-    height="400">
+    height="100%">
     
 </h1>
 
