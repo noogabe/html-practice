@@ -14,7 +14,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 ```bash
 # Clone o repositório para sua máquina local
-$ git clone https://github.com/GabrieleAlmeida/praticando.git
+$ git clone https://github.com/noogabe/praticando.git
 
 ```
 
